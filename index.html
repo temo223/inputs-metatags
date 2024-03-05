@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="აღწერა">
+  <meta name="keywords" content=" ქეივორდები">
+  <!-- Facebook meta tags
+  <meta property="og:url" content="https://smartacademy.ge">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="სათაური">
+  <meta property="og:description" content="აღწერა">
+  <meta property="og:image:alt" content="Smart Academy • სმარტ აკადემია">
+  <meta property="fb:app_id" content="2274464596122860" />
+    <meta property="og:image" content="https://smartacademy.ge/assets/client/assets/images/coverfbacademy.png">
+    <meta name="twitter:image" content="https://smartacademy.ge/assets/client/assets/images/coverfbacademy.png" />
+    <meta property="og:site_name" content="Smart Academy • სმარტ აკადემია">
+  <meta property="og:locale" content="ka_GE">
+    Twitter meta tags
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="კურსები, მასტერკლასები, ვორქშოპები, ტრენინგები, ონლაინ კურსები • Smart Academy სმარტ აკადემია" />
+  <meta name="twitter:description" content="პროგრამირების კურსები, დიზაინის კურსები, მარკეტინგის კურსები, მენეჯმენტის კურსები, ფინანსების კურსები. ონლაინ კურსები. ფიზიკური კურსები. ყველაზე დიდი სასწავლო სივრცე საქართველოში" /> -->
+  <link rel="stylesheet" href="css/style.css"> 
+  <title>forms</title>
+</head>
+<body>
+
+
+  <div class="container">
+    
+    <div class="contact">
+      <h2>კონტაქტი</h2>
+      <p>
+        Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
+        იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა
+        ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+      </p>
+      <div>
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95209.2695494938!2d44.742793950050135!3d41.77897042745493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472b82b6f835d%3A0x13d9fb6a0fac64e2!2sM%2FS%20Nadzaladevi!5e0!3m2!1sen!2sus!4v1709487454847!5m2!1sen!2sus"
+          width="463"
+          height="197"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="info-contact">
+        <div class="img1"><img src="css/example.png" alt="tel" /></div>
+        <a href="tel:+995 555 444 333"> +995 555 444 333</a>
+        <div class="img2"><img src="css/example.png" alt="mail" /></div>
+        <a href="mailto:example@gmail.com"> example@gmail.com</a>  
+      </div>
+      </div>
+
+      <div class="information">
+        <form action="#">
+          <div class="form-row">
+            <label for="user-info">სახელი,გვარი</label>
+            <input type="text" name="" id="user-info" required />
+          </div>
+          <div class="form-row">
+            <label for="user-mail">ელ.ფოსტა</label>
+            <input type="email" name="" id="user-mail" required />
+          </div>
+          <div class="form-row">
+            <label for="phone">ტელეფონის ნომერი</label>
+            <input
+             type="number"
+             inputmode="numeric"
+            pattern="[0-9\s]{13,19}"
+            autocomplete="cc-number"
+            maxlength="9"
+            placeholder="xxx xx xx xx"
+            />
+            <style>input[type=number]::-webkit-outer-spin-button,
+            input[type=number]::-webkit-inner-spin-button {
+              -webkit-appearance: none;
+              margin: 0;
+            }</style>
+          </div>
+          <div class="form-row">
+            <label for="user-message">შეტყობინება</label>
+            <textarea
+              name="message"
+              id="user-message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">გაგზავნა</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
